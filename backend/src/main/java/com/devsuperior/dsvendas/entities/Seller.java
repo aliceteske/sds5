@@ -31,10 +31,7 @@ public class Seller {
 		this.name = name;
 	}
 	
-	public Seller(Seller entity) {
-		id = entity.getId();
-		name = entity.getName();
-	}
+
 
 	public long getId() {
 		return id;
